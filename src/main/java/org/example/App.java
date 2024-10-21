@@ -5,10 +5,12 @@ package org.example;
  *
  */
 public class App 
-{int a;
+{
+    static  int a;
     public static void main( String[] args )
     {
         System.out.println( "Hello Ashish, how are you doing?" );
         System.out.println("Hello GiteshBhau");
+        System.out.println("a"+a);
     }
 }
